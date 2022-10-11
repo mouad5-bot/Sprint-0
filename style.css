@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+#younes * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#younes {
+    font-family: 'Poppins', sans-serif;
+}
+
+#younes a {
+    text-decoration: none;
+    color: black;
+}
+
+#younes ul { 
+    list-style-type: none; 
+}
+
+/* HEADER SECTION */
+
+#younes header {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+#younes .logo {
+    margin-right: 5%;
+    font-weight: 700;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+
+#younes .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 40%;
+    /* outline: 1px solid red; */
+}
+
+#younes .navigation-links a {
+    margin-right: 5px;
+    font-weight: 500;
+    /* outline: 1px solid red; */
+}
+
+#younes .log-in-and-log-out {
+    /* outline: 1px solid red; */
+}
+
+#younes .nav-and-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#younes .log-in-and-log-out .log-in {
+    font-weight: 600;
+    margin-right: 20px;
+    background-color: white;
+    padding: 5px 13px;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    /* outline: 1px solid red; */
+}
+
+#younes .log-in:hover {
+    border: 2px solid black;
+}
+
+#younes .log-in-and-log-out .sign-up {
+    font-weight: 400;
+    background-color: black;
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 5px 13px;
+    color: white;
+    cursor: pointer;
+}
+
+#younes .sign-up:hover {
+    background-color: white;
+    color: black;
+}
+
+/* FIRST SECTION */
+
+#younes .hero-section {
+    display: flex;
+    height: 250px;
+    background-color: #0a0a0a;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 7.3%;
+    /* outline: 1px solid red; */
+}
+
+#younes .left-hero {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    padding-left: 80px;
+    padding-top : 15px;
+    padding-bottom : 15px;
+}
+
+#younes .left-hero h1 {
+    margin: 0;
+    font-weight: 600;
+    /* outline: 1px solid red; */
+}
+
+#younes .left-hero p {
+    font-weight: 400;
+    font-size: 15px;
+    /* outline: 1px solid red; */
+}
+
+#younes .left-hero p span {
+    font-weight: 600;
+    /* outline: 1px solid red; */
+}
+
+#younes .input-button {
+    display: flex;
+    align-items: center;
+}
+
+#younes .left-hero input {
+    padding: 5px 10px;
+}
+
+#younes .left-hero button {
+    padding: 10px 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #fb7b30, #a831a5);
+}
+
+#younes .right-hero {
+    position: relative;
+    width: 50%;
+    /* outline: 1px solid red; */
+}
+
+#younes .right-hero img {
+    position: absolute;
+    bottom: -60px;
+    right: 30px;
+    height: 320px;
+    /* outline: 1px solid red; */
+}
+
+@media (max-width: 790px) {
+
+#younes    header {
+        display: block;
+    }
+    
+#younes    .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+ #younes   .nav-and-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+ #younes   .navigation-links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+#younes    .navigation-links a {
+        margin-top: 10px;
+        margin-right: 5px;
+        font-weight: 500;
+    }
+
+#younes    .navigation-links a:nth-child(3) {
+        display: none;
+    }
+    
+#younes    .log-in-and-log-out {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+#younes    .nav-and-buttons {
+        display: block;
+        width: 100%;
+    }
+    
+#younes    .log-in-and-log-out .log-in {
+        margin-top:0px;
+        margin-right: 5px;
+        padding: 5px 13px;
+    }
+    
+#younes    .log-in-and-log-out .sign-up {
+        margin-top: 0px;
+        padding: 5px 13px;
+    }
+
+    /* HERO SECTION */
+#younes    .hero-section {
+        display: block;
+        height: 250px;
+    }
+    
+#younes    .left-hero {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+   }
+    
+#younes    .input-button {
+        /* outline: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+ #younes   .left-hero input {
+        font-size: 10px;
+        width: 150px;
+        padding: 10px 10px;
+    }
+    
+#younes    .left-hero button {
+        padding: 12px 10px;
+        font-size: 10px;
+        background: linear-gradient(90deg, #FB7B30 0%, #A831A5 100%);    
+    }
+    
+ #younes   .right-hero img {
+        display: none;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    min-width: 400px;
+}
+
+#elamraoui{
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    
+}
+
+#elamraoui>div{
+    margin:auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#elamraoui>div>img{
+    width: 28.3536%; /* 465/1640 * 100 (converting from px to % */
+}
+
+#middle{
+    padding-left: 5.79%;
+    padding-right: 5.79%;
+    font-family: Poppins,sans-serif;
+    opacity: 1;
+    fill: #0c0c0c;
+    fill-rule: evenodd;
+    height:73.14%;
+}
+
+#rewards{
+     /* 73% of the illustration size*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#title{
+    font-size: 2.1298rem;
+    text-align: center;
+}
+
+#grow a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+#post img,#earn img,#grow img{
+    vertical-align:text-bottom;
+    padding-right: 4px;
+}
+
+#get-started-button{
+    margin: auto;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 1rem;
+    text-align: center;
+    width: 224px;
+    border-radius: 10px;
+    min-width: 180px;
+    height: 3.25rem;
+    background: linear-gradient(90deg, #FB7B30 0%, #A831A5 100%);
+    display: flex;
+    justify-content: center;
+}
+
+#get-started-button a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width:550px) {
+
+
+    #elamraoui>div>img{
+        display:none
+    }
+    #middle {
+        padding: 0px;
+    }
+}
+@media screen and (min-width:550px)and (max-width:1080px){
+    body{
+        margin: 0px;
+    }
+}
+/*section Patners*/
+#imane{
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+}
+#imane .partners {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    margin-top: 130px;
+    row-gap: 40px;
+}
+.partners img{
+    margin-right: 45px;
+}
+#imane .img1{
+    width: 15%;
+}
+#imane .img4{
+    width: 13%;  
+    height: 2%;
+    margin-top: 8px;
+}
+#imane .img2{
+    width: 12%;
+    height: 1%;
+    margin-top: 10px; 
+}
+#imane .img3{
+    width: 13%;
+    height: 1%;
+    margin-top: 7px;
+    margin-bottom: 1px;
+}
+#imane .img5{
+    width: 18%;
+    margin-top:3px ;
+    height: 2%;
+}
+#imane .img6{
+    width: 7%;
+    height: 2%;  
+}
+@media screen and (max-width:550px) {
+    #imane .partners {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fre 1fr;
+        row-gap: 6px;
+         column-gap: 45px;
+        margin: 1px 0px 14px ;   
+    }
+    #imane{
+        margin: 6px 8px 20px 38px; 
+    }
+    .partners{
+        align-items: center;
+
+    }
+    #imane .img1{
+        width: 90%;
+    }
+    #imane .img4{
+        width: 90%;
+        height: 90%;
+        margin-top: -5px;
+        
+        /* margin-top: 8px; */
+    }
+    #imane .img2{
+        width: 66%;
+        height: 66%;
+        margin-top: 2px;
+    }
+    #imane .img3{
+        margin-top: 19px;
+        width: 70%;
+        height: 54%;
+        margin-left: 20px;
+    }
+    #imane .img5{
+        width: 80%;
+        height: 70%;
+    }
+    #imane .img6{
+        width: 46%;
+        height: 80%;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:550px)and (max-width:1080px){
+    #imane .partners {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fre 1fr;
+        row-gap: 6px;
+         column-gap: 45px;
+        margin: 1px 0px 14px ;   
+    }
+    #imane{
+        margin: 40px 0 40px 61px; 
+    }
+    .partners{
+        align-items: center;
+
+    }
+    #imane .img1{
+        width: 60%;
+    }
+    #imane .img4{
+        width: 60%;
+        height: 80%;
+        margin-top: -9px;
+    }
+    #imane .img2{
+        width: 56%;
+        height: 56%;
+        margin-top: 2px;
+    }
+    #imane .img3{
+        margin-top: 19px;
+        width: 40%;
+        height: 44%;
+        margin-left: 38px;
+    }
+    #imane .img5{
+        width: 60%;
+        height: 50%;
+    }
+    #imane .img6{
+        width: 43%;
+        height: 50%;
+        margin-top: 10px;
+    }
+
+}
+/*End Section Patners*/
+/* Start Section Grid Image */
+
+/****** Start Partie de section de grid_image_footer by imane ***********/
+#imaneGrid * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#imaneGrid{
+    width: 85%; 
+    margin-left:7.3% ;
+    margin-right:-17px ;
+    margin-bottom: 55px;
+}
+.gridFooter .footerItems{
+    display: grid;
+   grid-template-columns: 25% 20% 27% 21.7%;
+   grid-template-rows: 1fr;
+   grid-gap: 28px;
+   /* border: 10px solid black; */
+
+}
+#imaneGrid .column1{
+   margin-left: 0;
+}
+#imaneGrid .column1 .footer1{
+    width: 100%;
+    margin-bottom: 27px;
+ }
+ #imaneGrid .column1 .footer5{
+    width: 85%;
+    margin-left: 45px;
+ }
+ #imaneGrid .column2 .footer3{
+    width: 100%;
+    
+   }
+ #imaneGrid .column3 .footer2{
+    width: 100%;
+    margin-bottom: 27px;
+ }
+ #imaneGrid .column3 .footer4{
+    width: 100%;
+ }
+ #imaneGrid .column4 .footer7{
+    width: 100%;
+    margin-bottom: 27px;
+ }
+ #imaneGrid .column4 .footer6{
+    width: 100%;
+ }
+ /* section of MEdia */
+ @media screen and (max-width:550px) {
+    #imaneGrid{
+        width: 95%; 
+        margin-left:7.3% ;
+        margin-right:-17px ;
+        margin-bottom: 55px;
+    }
+    .gridFooter .footerItems{
+        display: grid;
+       grid-template-columns: 34% 22% 26%;
+       grid-gap: 10px;
+    }
+    #imaneGrid .column1 .footer1{
+        width: 100%;
+        margin-bottom: 10px;
+
+
+     }
+     #imaneGrid .column1 .footer5{
+        width: 100%;
+        margin-left: 0;
+     }
+     #imaneGrid .column2 .footer3{
+        width: 105%;
+        margin-right: 0;
+        
+       }
+     #imaneGrid .column3 .footer2{
+        width: 100%;
+        /* margin-left: 0; */
+        margin-bottom: 10px;
+        
+     }
+     #imaneGrid .column3 .footer4{
+        width: 100%;
+     }
+     #imaneGrid .column4 {
+        display: none;
+     }   
+}
+/*mobile*/
+@media screen and  (max-width:480px){
+    #imaneGrid{
+        width: 100%; 
+        margin-left:8.3% ;
+        margin-right:-10px ;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        
+    }
+    .gridFooter .footerItems{
+        display: flex;
+       grid-template-columns: 30%  30%;
+       row-gap: 25px;
+    }
+    #imaneGrid .column1 .footer1{
+        width: 90%;
+        margin-bottom: 0px;
+        height: 48%;
+     }
+     #imaneGrid .column1 .footer5{
+        width: 90%;
+        height: 48%;
+        margin-left: 0;
+        
+     }
+     #imaneGrid .column2 .footer3{
+        display: none;
+        
+       }
+     #imaneGrid .column3 .footer2{
+        width: 75%;
+        margin-left: -39px;
+        margin-bottom: 1px;
+        
+     }
+     #imaneGrid .column3 .footer4{
+        width: 75%;
+        margin-left: -39px;
+     }
+     #imaneGrid .column4 {
+        display: none;
+     }
+     
+
+
+
+}
+/*tablette+laptop*/
+@media screen and (min-width:550px)and (max-width:1080px){
+    #imaneGrid{
+        width: 100%; 
+        margin-left:7.3% ;
+        margin-right:-17px ;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+    .gridFooter .footerItems{
+        display: grid;
+       grid-template-columns: 35% 21% 25%;
+       /* grid-gap: 5px; */
+    }
+    #imaneGrid .column1 .footer1{
+        width: 107%;
+        margin-bottom: 0px;
+
+
+     }
+     #imaneGrid .column1 .footer5{
+        width: 107%;
+        height: 41%;
+        margin-left: 0;
+        
+     }
+     #imaneGrid .column2 .footer3{
+        width: 104%;
+        margin-left: -3px;
+        
+       }
+     #imaneGrid .column3 .footer2{
+        width: 104%;
+        margin-left: -19px;
+        margin-bottom: 1px;
+        
+     }
+     #imaneGrid .column3 .footer4{
+        width: 104%;
+        margin-left: -19px;
+     }
+     #imaneGrid .column4 {
+        display: none;
+     }
+     
+
+
+
+}
+/****** End Partie de section de grid_image_footer ***********/
+
+
+
+/* End Section Grid Image */
+
+/***************************** MFifel tache*****************************/
+/****** first section of fifel ***********/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#fifel .bodyFF{
+    display: flex;
+}
+
+#fifel .txt{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    width: 85.4%;
+    margin: 7.3%;    
+}
+
+#fifel .content{
+    margin: 3.5% 3.5% 3.5% 3.5%;
+}
+
+#fifel .txt h1{
+    width: 48.3%;
+    height: 32.7%;
+}
+
+
+#fifel .signup-image{
+    position: absolute;
+    margin-left:   45.7%;
+    margin-right: 3.5%;
+}
+
+#fifel .signup-image img{
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    height: 22rem;
+
+}
+
+.bodyFF .txt .content p img{
+    width: 1.5%;
+    height: 6.3%;
+    margin-right: 1%;
+}
+
+#fifel .btn{
+    margin: auto;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 1rem;
+    border-radius: .5rem;
+    min-width: 15rem;
+    height: 3.25rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#fifel .btn1{
+    padding: 1%;
+    background-color: #fcfcfc;
+    height: 13.6;
+    width: 15.9%; 
+}
+
+#fifel .btn2{
+    padding: 1%;
+    background: rgb(185,64,140);
+    background: linear-gradient(90deg, #FB7B30 0%, #A831A5 100%);
+    height: 13.6;
+    width: 13.9%;
+}
+
+
+/**************start footer styling ******************/
+
+
+
+#fifel  footer .fa-instagram {
+    background: white;
+    color: rgb(0, 0, 0);
+  } 
+
+
+#fifel  footer .fa-facebook {
+  background: white;
+  color: rgb(0, 0, 0);
+}
+
+#fifel  footer .fa-twitter {
+    background: white;
+    color: rgb(0, 0, 0);
+}
+
+#fifel  footer .fa:hover {
+    opacity: 0.7;
+}
+
+#fifel  footer .fa {
+    width: 24px;
+    height: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 4px;
+}
+
+#fifel  footer .myFooter{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #fcfcfc;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+#fifel  footer .myFooter .rightPart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fifel  footer .myFooter .rightPart .explore{
+    display: flex;
+}
+
+#fifel  footer .myFooter .rightPart .product{
+    display: flex;
+}
+
+#fifel .myFooter li{
+  list-style: none;
+}
+
+#fifel footer .leftPart{
+  margin-top: 2rem;
+}
+
+.myFooter .rightPart ul li:nth-child(1) {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.myFooter .rightPart ul li+li {
+  margin-bottom: .5rem;
+  font-size: small ;
+  margin-right: 3rem;
+}
+
+#fifel .downOfFooter p{
+  text-align: center;
+}
+
+
+/***responsive***/
+
+@media screen and (max-width: 480px) {
+  #fifel .signup-image img{
+      display: none;
+  }
+
+  #fifel .txt {
+      width:100%;
+      height: 50%;
+      font-size: small;
+  }
+
+  #fifel .txt  h1{
+      width: 100%;
+  }
+
+  #fifel .btn{
+    width: 40.9%;
+    margin-bottom: .5rem;
+    border-radius: 0.2rem;
+    border: none;
+  }
+
+  #fifel  footer .myFooter{
+    display:block;
+ }
+
+  #fifel  footer .myFooter .rightPart{
+    display: block;
+  }
+
+  .rightPart .explore{
+    display: flex;
+  }
+
+  .rightPart .product{
+    display: flex;
+  }
+} 
+
+
+/************************Fin de  MFifel tache****************************/
